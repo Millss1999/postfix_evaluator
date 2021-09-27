@@ -1,0 +1,19 @@
+
+project (assignment4) {
+  exename = assignment4
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+    driver.cpp
+  }
+
+  Template_Files {
+    ./stack/Array_Base.cpp
+    ./stack/Array.cpp
+    ./stack/Stack.cpp    
+  }
+}
