@@ -1,1 +1,2 @@
-# cs363-fall2020-assignment4
+# Postfix expression evaluator
+Evaluates given postfix expression
